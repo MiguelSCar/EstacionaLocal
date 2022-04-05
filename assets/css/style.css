@@ -488,10 +488,14 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover { border: 1px solid #12735c!important; }
 
 /*rodape*/
+
+.preto{
+	background: #000000;
+}
 .rodape{
 	width:100%;
 	float:left;
-	background:#483d7d42;
+	background:#000000;
 	padding:15px;
 	text-align:center;
 	margin-top:40px;
@@ -576,7 +580,7 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
 /*500*/
 @media (max-width:500px){
 	.base-home {
-		padding: 50px 20px;
+		padding: 50px 20px;	
 	}
 	.cx-home .cx-body img {
     float: none;
@@ -585,6 +589,6 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
     margin-bottom: 10px;
 	    width: 77px;
 	}
-	.cx-body{text-align:center;}
+	.cx-body{text-align:center;}	
 }
 

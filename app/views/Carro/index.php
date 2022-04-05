@@ -23,7 +23,7 @@
 									</select>
 								</div>
 								<div class="col-6">
-									<input type="text"  name="" placeholder="Valor da pesquisar..." >
+									<input type="text"  name="" placeholder="Valor da pesquisar...">
 								</div>
 								<div class="col-2">
 									<input type="submit" class="btn btn-azul" value="pesquisar">
@@ -40,6 +40,9 @@
 							<th align="left">Nome</th>
 							<th align="left">Marca</th>
 							<th align="center">Cor</th>
+							<th align="center">Cliente</th>
+							<th align="center">Email</th>
+							<th align="center">Celular</th>
 							<th align="center">Ação</th>
 						  </tr>
 						</thead> 
@@ -49,10 +52,13 @@
 								<td><?php echo $carro->idcarro; ?></td>
 								<td><?php echo $carro->nome; ?></td>
 								<td><?php echo $carro->marca; ?></td>
-								<td align="center"><?php echo $carro->cor; ?></td>
+								<td><?php echo $carro->cor; ?></td>
+								<td><?php echo $carro->cliente; ?></td>
+								<td><?php echo $carro->email; ?></td>
+								<td align="center"><?php echo $carro->celular; ?></td>
 								<td align="center">
 									<a href="<?php echo URL_BASE."carro/edit/".$carro->idcarro ?>" class="btn btn-editar" title="Editar"></a>
-									<a href="<?php echo URL_BASE."carro/excluir/".$carro->idcarro ?>" class="btn btn-excluir" title="excluir"></a>
+									<a href="<?php echo URL_BASE."carro/excluir/".$carro->idcarro ?>" class="btn btn-excluir" title="excluir"><img src="<?php echo URL_BASE. "assets/img/iconoir_trash.png"?>" alt="" height="20px"></a>
 								</td>
 							</tr>
 							<?php } ?>	

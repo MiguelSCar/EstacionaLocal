@@ -6,10 +6,10 @@
 						<div class="col-3 mb-3">
 							<article class="cx-home">
 								<div class="cx-body">
-									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_add-user.svg"></i>
+									<i><img src="<?php echo URL_BASE ?>/assets/img/iconoir_car.svg" height="45px"></i>
 									<div>
 										<strong>20</strong>
-										<small>Ítens adicionados</small>
+										<small>Carros Cadastrados</small>
 									</div>
 								</div>
 							</article>
@@ -17,10 +17,10 @@
 						<div class="col-3 mb-3">
 							<article class="cx-home vermelho">
 								<div class="cx-body">
-									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_remove-user.svg"></i>
+									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8-emblema-de-carro-50.png" height="45px" weight="20px"></i>
 									<div>
 										<strong>200</strong>
-										<small>Ítens excluídos</small>
+										<small>Vagas Cadastradas</small>
 									</div>
 								</div>
 							</article>
@@ -29,30 +29,17 @@
 						<div class="col-3 mb-3">
 							<article class="cx-home">
 								<div class="cx-body">
-									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_group.svg"></i>
+									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8-vender-imóvel-30.png" height="46px" weight="20px"></i>
 									<div>
 									<strong>2000</strong>
-									<small>Contatos ativos</small>
+									<small>Aluguéis Cadastrados</small>
 									</div>
 								</div>
 							</article>
 						</div>
-						<div class="col-12 mt-5 pt-4"><h2 class="titulo">MENU</h2></div>
+						<div class="col-12 mt-5 pt-4"><h2 class="titulo">CÂMERA DA GARAGEM</h2></div>
 						<div class="col-3 mb-3">
-							<article class="cx-home">
-								<a href="<?php echo URL_BASE ."contato/create" ?>" class="btn cx-body">
-									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_add-user.svg"></i>
-									<div>cadastro</div>
-								</a>
-							</article>
-						</div>
-						<div class="col-3 mb-3">
-							<article class="cx-home">
-								<a href="<?php echo URL_BASE ."contato" ?>" class="btn cx-body">
-									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_numbered-list.svg"></i>
-									<div>Listar contatos</div>
-								</a>
-							</article>
+							<img src="<?php echo URL_BASE ?>/assets/img/parking-image.jpg" alt="imagem de estacionamento" height="540px" weight="20px">
 						</div>
 					</div>
 					</div>

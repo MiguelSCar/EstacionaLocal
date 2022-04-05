@@ -26,7 +26,10 @@ class Carro extends Model{
         $sql = " INSERT INTO tblcarros set
         nome =:nome,
         marca =:marca,
-        cor=:cor
+        cor=:cor,
+        cliente=:cliente,
+        email=:email,
+        celular=:celular
       ";
 
         $qry=$this->db->prepare($sql);
@@ -34,6 +37,9 @@ class Carro extends Model{
         $qry->bindValue(":nome", $carro->nome);
         $qry->bindValue(":marca", $carro->marca);
         $qry->bindValue(":cor", $carro->cor);
+        $qry->bindValue(":cliente", $carro->cliente);
+        $qry->bindValue(":email", $carro->email);
+        $qry->bindValue(":celular", $carro->celular);
         $qry->execute();
 
         return $this->db->lastInsertId();
@@ -50,7 +56,10 @@ class Carro extends Model{
         $sql = " UPDATE tblcarros set
         nome =:nome,
         marca =:marca,
-        cor=:cor
+        cor=:cor,
+        cliente=:cliente,
+        email=:email,
+        celular=:celular
         where idcarro =:id
       ";
 
@@ -59,6 +68,9 @@ class Carro extends Model{
         $qry->bindValue(":nome", $carro->nome);
         $qry->bindValue(":marca", $carro->marca);
         $qry->bindValue(":cor", $carro->cor);
+        $qry->bindValue(":cliente", $carro->cliente);
+        $qry->bindValue(":email", $carro->email);
+        $qry->bindValue(":celular", $carro->celular);
         $qry->bindValue(":id", $carro->idcarro);
         $qry->execute();
 

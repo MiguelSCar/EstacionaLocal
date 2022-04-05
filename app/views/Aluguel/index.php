@@ -40,6 +40,7 @@
 							<th align="left">Carro</th>
 							<th align="left">Vaga</th>
 							<th align="center">Tempo</th>
+							<th align="center">Preço</th>
 							<th align="center">Ação</th>
 						  </tr>
 						</thead> 
@@ -49,10 +50,11 @@
 								<td><?php echo $aluguel->idaluguel; ?></td>
 								<td><?php echo $aluguel->carro; ?></td>
 								<td><?php echo $aluguel->vaga; ?></td>
-								<td align="center"><?php echo $aluguel->tempo; ?></td>
+								<td><?php echo $aluguel->tempo; ?></td>
+								<td align="center"><?php echo $aluguel->preco; ?></td>
 								<td align="center">
 									<a href="<?php echo URL_BASE."aluguel/edit/".$aluguel->idaluguel ?>" class="btn btn-editar" title="Editar"></a>
-									<a href="<?php echo URL_BASE."aluguel/excluir/".$aluguel->idaluguel ?>" class="btn btn-excluir" title="excluir"></a>
+									<a href="<?php echo URL_BASE."aluguel/excluir/".$aluguel->idaluguel ?>" class="btn btn-excluir" title="excluir"><img src="<?php echo URL_BASE. "assets/img/iconoir_trash.png"?>" alt="" height="20px"></a>
 								</td>
 							</tr>
 							<?php } ?>	

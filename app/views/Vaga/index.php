@@ -39,6 +39,7 @@
 						  <th align="left">ID</th>
 							<th align="left">Estado</th>
 							<th align="left">Preferencial</th>
+							<th align="left">Idoso</th>
 							<th align="center">Ação</th>
 						  </tr>
 						</thead> 
@@ -48,9 +49,10 @@
 								<td><?php echo $vaga->idvaga; ?></td>
 								<td><?php echo $vaga->estado; ?></td>
 								<td><?php echo $vaga->preferencial; ?></td>
+								<td><?php echo $vaga->idoso; ?></td>
 								<td align="center">
 									<a href="<?php echo URL_BASE."vaga/edit/".$vaga->idvaga ?>" class="btn btn-editar" title="Editar"></a>
-									<a href="<?php echo URL_BASE."vaga/excluir/".$vaga->idvaga ?>" class="btn btn-excluir" title="excluir"></a>
+									<a href="<?php echo URL_BASE."vaga/excluir/".$vaga->idvaga ?>" class="btn btn-excluir" title="excluir"><img src="<?php echo URL_BASE. "assets/img/iconoir_trash.png"?>" alt="" height="20px"></a>
 								</td>
 							</tr>
 							<?php } ?>	

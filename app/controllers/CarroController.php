@@ -44,6 +44,9 @@ class CarroController extends Controller{
       $carro->nome         = $_POST["nome"];
       $carro->marca          = $_POST["marca"];
       $carro->cor     = $_POST["cor"];
+      $carro->cliente     = $_POST["cliente"];
+      $carro->email     = $_POST["email"];
+      $carro->celular     = $_POST["celular"];
       $carro->idcarro     =($_POST["idcarro"]) ? $_POST["idcarro"] : NULL;
       
 

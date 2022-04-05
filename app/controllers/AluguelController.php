@@ -44,6 +44,7 @@ class AluguelController extends Controller{
       $aluguel->carro         = $_POST["carro"];
       $aluguel->vaga          = $_POST["vaga"];
       $aluguel->tempo          = $_POST["tempo"];
+      $aluguel->preco          = $_POST["preco"];
       $aluguel->idaluguel     =($_POST["idaluguel"]) ? $_POST["idaluguel"] : NULL;
       
 

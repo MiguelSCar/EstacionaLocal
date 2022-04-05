@@ -26,7 +26,8 @@ class Aluguel extends Model{
         $sql = " INSERT INTO tblaluguel set
         carro =:carro,
         vaga =:vaga,
-        tempo=:tempo
+        tempo=:tempo,
+        preco=:preco
       ";
 
         $qry=$this->db->prepare($sql);
@@ -34,6 +35,7 @@ class Aluguel extends Model{
         $qry->bindValue(":carro", $aluguel->carro);
         $qry->bindValue(":vaga", $aluguel->vaga);
         $qry->bindValue(":tempo", $aluguel->tempo);
+        $qry->bindValue(":preco", $aluguel->preco);
         $qry->execute();
 
         return $this->db->lastInsertId();
@@ -50,7 +52,8 @@ class Aluguel extends Model{
         $sql = " UPDATE tblaluguel set
         carro =:carro,
         vaga =:vaga,
-        tempo=:tempo
+        tempo=:tempo,
+        preco=:preco
         where idaluguel =:id
       ";
 
@@ -59,6 +62,7 @@ class Aluguel extends Model{
         $qry->bindValue(":carro", $aluguel->carro);
         $qry->bindValue(":vaga", $aluguel->vaga);
         $qry->bindValue(":tempo", $aluguel->tempo);
+        $qry->bindValue(":preco", $aluguel->preco);
         $qry->bindValue(":id", $aluguel->idaluguel);
         $qry->execute();
 
