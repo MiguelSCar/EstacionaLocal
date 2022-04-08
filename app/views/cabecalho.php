@@ -6,9 +6,9 @@
 					<ul>
 						
 						
-						<li><a href="<?php echo URL_BASE."carro"?>">Lista de carros</a></li>
+						<li><a href="<?php echo URL_BASE."carro"?>">Lista de Carros</a></li>
 
-						<li><a href="<?php echo URL_BASE."vaga"?>">Lista de vagas</a></li>
+						<li><a href="<?php echo URL_BASE."vaga"?>">Lista de Vagas</a></li>
 						
 						<li><a href="<?php echo URL_BASE."aluguel"?>">Lista de Aluguéis</a></li>
 					

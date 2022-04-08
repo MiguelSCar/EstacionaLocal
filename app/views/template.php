@@ -5,13 +5,17 @@
 	<thead>
 		<title>Estaciona Local - SISTEMA</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/css/style.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/js/datatables/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/js/datatables/css/responsive.dataTables.min.css">
 		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/js/datatables/css/style_dataTable.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo URL_BASE ?>/assets/css/auxiliar.css">
+		
 		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/css/grade.css">
-		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/css/style.css">
+		
 		<link rel="stylesheet" href="<?php echo URL_BASE ?>/assets/css/footers.css">
 		
 		<!-- SCRIPT VALIDAÇÂO -->
@@ -63,6 +67,7 @@
 	<div class="conteudo">
          <?php $this->load($view,$viewData); ?>
 	</div>
+
 
 				<!-- aqui entra a view  rodape.php-->
 				<?php include_once "rodape.php"; ?>

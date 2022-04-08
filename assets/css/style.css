@@ -8,10 +8,10 @@
 	-o-box-sizing:border-box;
 }
 
-body{font-family: "Times New Roman", sans-serif; font-size:1em; background: #fff;
-}
+.body{font-family: verdana, arial, helvetica, sans-serif; font-size:25px; background: #fff;}
+	
 	a{text-decoration:none;}
-	a:hover{text-decoration:underline;}
+	a:hover{text-decoration:none;}
 
 .mostraCampo{
 	position: absolute;
@@ -504,7 +504,7 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
 	color:#4d4575;
 	font-size:.9em;
 }
-.mobmenu{display:none!important}
+.mobmenu{display:none!important; text-decoration: none;}
 
 
 
@@ -539,7 +539,10 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
     margin-top: 7px;
     color: #fff;
     font-size: 1.5rem;
+	
 	}
+
+	
 	.topo .menu {
 		float: none;
 		margin-left: 0;
@@ -552,6 +555,7 @@ table.dataTable thead .sorting_asc {background-color: #f6f6f6!important;}
 		text-align:center;
 		display:none;
 		z-index:1
+
 	}
 	.topo .menu ul li {
 		display: block;
